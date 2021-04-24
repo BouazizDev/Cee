@@ -1,0 +1,678 @@
+
+
+body{   
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+    margin:0;
+   
+}
+
+.cee {
+  color: #88bd24;
+}
+.navbar{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background: rgba( 0, 0, 0, 0.6) !important;
+}
+.navbar-brand img{
+ height: 4rem;
+ margin-left: 63px;
+}
+.navbar-nav li {
+    padding-right :.7rem;
+    margin-right: 10px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#88bd24;
+}
+.home-inner{
+    background-image: url(../img/bg-img.jpg);
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position:absolute;
+    top:38%;
+    z-index: 1;
+    text-transform: uppercase;
+    color:white;
+}
+.caption h1{
+    font-size: 5vw;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    color:#88bd24;
+
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    text-shadow: .1rem .1rem .8rem black;
+
+}
+  
+.feature i{
+    margin-bottom: 10px;
+}
+.narrow{
+    width: 75%;
+    margin:1.5rem auto;
+}
+.narrow h1{
+    font-size:2.4rem;
+}
+.heading-underling{
+    width:3rem;
+    height:.2rem;
+    background-color: #88bd24;
+    margin:0 auto 2rem;
+}
+
+.feature i{
+  color:#88bd24;
+}
+.jumbotron{
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+}
+.site-footer img{
+  height: 4rem;
+ margin-left: 1.5rem 1rem;
+}
+.site-footer{
+  background:#40474e;
+  padding:2rem 0 2rem;
+}
+
+.site-footer p{
+  color:white;
+  font-size:1rem;
+  font-weight: 500;
+  
+}
+.site-footer a {
+ text-decoration:none;
+ color:white;;
+ margin: 1.5rem .5rem 0 0;
+ font-size: 1.6rem;
+}
+.site-footer a:hover{
+  color:#88bd24;
+}
+hr.socket{
+  width: 100%;
+  border-top: .1rem solid #666b71;
+  margin-top: 3rem;
+}
+
+#about h1{
+  font-size: 36px;
+  color:#505962;
+  font-weight: bold;
+
+}
+#about img{
+  margin-top:-50px
+}
+#about h3{
+  font-size: 24px;
+  color:black;
+  font-weight: bold;
+  margin:1rem 1rem 0.2rem 1rem;
+
+}
+#about h5{
+  font-size: 20px ;
+  color:#40474e;
+  margin:1rem 1rem 0.3rem 1rem;
+
+}
+#about i{
+  font-size: 25px;
+  color:#505962;
+  margin:1rem 1rem 0.5rem 1rem;
+}
+.card .card-body .event-img{
+  margin-top:-68px !important;
+}
+
+#about i:hover{
+  color:white;
+}
+#about p{
+  font-weight: 500;
+  font-size: 17px;
+}
+#about .card {
+width: 85%;
+box-shadow: 5px 5px 15px #88bd24;
+transition:all 0.3s ease-in;
+-webkit-transition: all 0.3s ease-in;
+-moz-transition: all 0.3s ease-in;
+}
+#about .card:hover{
+  background:#88bd24;
+  color:#fff;
+  border-radius: 5px;
+  border:none;
+  box-shadow: 5px 5px 10px #505962;
+}
+#about .row-1 .card{
+ height:89%;
+}
+#about .row-1 i{
+  margin-bottom: 2.5rem ;
+}
+#about .row-2 .card{
+  height: 95%;
+}
+
+.footer-heading{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight:900;
+  margin-bottom: 20px;
+  color:white;
+  
+}
+
+.site-footer{
+  padding: 4em 0;
+  background-color: #22282e;
+  
+  bottom: 0px;
+  width: 100%;
+}
+
+.site-footer img{
+  height: 4rem;
+ margin-left: 1.5rem 1rem;
+}
+
+
+.site-footer p{
+  color:#a5a8a6;
+  font-size:0.8rem;
+  font-weight: 500;
+  
+}
+.site-footer a {
+ text-decoration:none;
+ color:white;;
+ margin: 1.5rem 1rem 0 0;
+ font-size: 1.6rem;
+}
+.site-footer a:hover{
+  color:#88bd24;
+}
+hr.socket{
+  width: 100%;
+  border-top: .1rem solid #666b71;
+  margin-top: 3rem;
+}
+.site-footer .dev{
+  color:#88bd24;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.site-section{
+  background-color:#22282e;
+  padding-top:8rem;
+}
+.site-section .row{
+  padding-bottom: 3rem;
+}
+.section-heading{
+ color: antiquewhite;
+  margin-bottom: 20px;
+}
+.site-section .btn{
+  background-color: #88bd24;
+  border-color: #88bd24;
+}
+
+.contact-us{
+  max-width: 800px;
+  margin: 120px auto;
+  position: relative;
+  padding: 14vh 0;
+  box-shadow: 0 10px 30px 0 rgba( 0, 0, 0, 0.1);
+}
+.contact-us .title{
+   text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 3px;
+  line-height: 48px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, #20e3b2 0% , #88bd24 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-form .form-field{
+  margin:29px 0;
+  position: relative;
+}
+.contact-form .input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #88bd24;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus +.label,
+.contact-form .input-text.not-empty +.label{
+  transform: translatey(-24px);
+}
+.contact-form .input-text:focus{
+  outline:none;
+}
+.contact-form .label{
+  position: absolute;
+  bottom: 32px;
+  left: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color:#88bd24 ;
+  cursor: text;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn{
+  display: inline-block;
+  background-image: linear-gradient(125deg,#20e3b2,#88bd24);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+
+}
+  
+
+
+
+
+/*GLITCHEWI*/
+hr {
+    border: 0;
+    border-top: 1px solid #222;
+    width: 70%;
+  }
+  
+  .glitch {
+    position: relative;
+  }
+  
+  .glitch2 {
+    color: #333;
+  }
+  
+  .glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: -2px 0 #f0f;
+    top: 0;
+    color: white;
+    background:transparent;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 1s infinite linear alternate-reverse;
+  }
+  
+  .glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: 2px 0 #0ff;
+    top: 0;
+    color: white;
+    background:transparent;
+    overflow: hidden;
+    clip: rect(0, 100px, 0, 0) ;
+    animation: noise-anim-2 50s infinite linear alternate-reverse;
+  }
+  
+  @keyframes noise-anim {
+    0% {
+      clip: rect(49px, 100px, 87px, 0);
+    }
+    5% {
+      clip: rect(72px, 100px, 68px, 0);
+    }
+    10% {
+      clip: rect(37px, 100px, 78px, 0);
+    }
+    15% {
+      clip: rect(91px, 100px, 50px, 0);
+    }
+    20% {
+      clip: rect(90px, 100px, 69px, 0);
+    }
+    25% {
+      clip: rect(95px, 100px, 60px, 0);
+    }
+    30% {
+      clip: rect(6px, 100px, 94px, 0);
+    }
+    35% {
+      clip: rect(36px, 100px, 1px, 0);
+    }
+    40% {
+      clip: rect(88px, 100px, 67px, 0);
+    }
+    45% {
+      clip: rect(29px, 100px, 97px, 0);
+    }
+    50% {
+      clip: rect(87px, 100px, 46px, 0);
+    }
+    55% {
+      clip: rect(49px, 100px, 81px, 0);
+    }
+    60% {
+      clip: rect(77px, 100px, 63px, 0);
+    }
+    65% {
+      clip: rect(64px, 100px, 21px, 0);
+    }
+    70% {
+      clip: rect(37px, 100px, 96px, 0);
+    }
+    75% {
+      clip: rect(96px, 100px, 80px, 0);
+    }
+    80% {
+      clip: rect(14px, 100px, 76px, 0);
+    }
+    85% {
+      clip: rect(17px, 100px, 86px, 0);
+    }
+    90% {
+      clip: rect(63px, 100px, 77px, 0);
+    }
+    95% {
+      clip: rect(25px, 100px, 83px, 0);
+    }
+    100% {
+      clip: rect(73px, 100px, 74px, 0);
+    }
+  }
+  
+  @keyframes noise-anim-2 {
+    0% {
+      clip: rect(98px, 100px, 69px, 0);
+    }
+    5% {
+      clip: rect(14px, 100px, 57px, 0);
+    }
+    10% {
+      clip: rect(43px, 100px, 3px, 0);
+    }
+    15% {
+      clip: rect(25px, 100px, 26px, 0);
+    }
+    20% {
+      clip: rect(33px, 100px, 81px, 0);
+    }
+    25% {
+      clip: rect(42px, 100px, 30px, 0);
+    }
+    30% {
+      clip: rect(13px, 100px, 28px, 0);
+    }
+    35% {
+      clip: rect(17px, 100px, 94px, 0);
+    }
+    40% {
+      clip: rect(34px, 100px, 11px, 0);
+    }
+    45% {
+      clip: rect(36px, 100px, 93px, 0);
+    }
+    50% {
+      clip: rect(65px, 100px, 76px, 0);
+    }
+    55% {
+      clip: rect(85px, 100px, 25px, 0);
+    }
+    60% {
+      clip: rect(59px, 100px, 100px, 0);
+    }
+    65% {
+      clip: rect(65px, 100px, 83px, 0);
+    }
+    70% {
+      clip: rect(4px, 100px, 47px, 0);
+    }
+    75% {
+      clip: rect(100px, 100px, 46px, 0);
+    }
+    80% {
+      clip: rect(72px, 100px, 66px, 0);
+    }
+    85% {
+      clip: rect(40px, 100px, 33px, 0);
+    }
+    90% {
+      clip: rect(99px, 100px, 86px, 0);
+    }
+    95% {
+      clip: rect(13px, 100px, 77px, 0);
+    }
+    100% {
+      clip: rect(97px, 100px, 96px, 0);
+    }
+  }
+
+
+
+.team a:link,
+.team a:active,
+.team a:visited{
+  color:rgba(255,255,255,1);
+}
+
+.team a:hover{
+  color:rgba(255,255,255,0.6);
+}
+  .gray {
+    color: #a5a5a5;
+  }
+  
+  .team{
+    margin:40px;
+  }
+  
+  .team-member {
+    margin: 15px 0;
+    padding: 0;
+  }
+  
+  .team-member figure {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .team-member figure img {
+    min-width: 100%;
+  }
+  
+  .team-member figcaption p {
+    font-size: 16px;
+  }
+  
+  .team-member figcaption ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .team-member figcaption ul {
+    visibility: visible;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .team-member figcaption ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .team-member h4 {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  
+  .team-member figcaption {
+    padding: 50px;
+    color: transparent;
+    background-color: transparent;
+    position: absolute;
+    z-index: 996;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .team-member figure:hover figcaption {
+    opacity: 50%;
+    visibility: visible;
+    color: #fff;
+    background: #88bd24;
+    /* Primary color, can be changed via colors.css */
+    
+    height: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .team-member figure:hover figcaption ul li a:hover {
+    color: rgba(49, 49, 49, .97);
+  }
+  
+  .team-member figure img {
+    -webkit-transform: scale(1) rotate(0) translateY(0);
+    -moz-transform: scale(1) rotate(0) translateY(0);
+    -o-transform: scale(1) rotate(0) translateY(0);
+    -ms-transform: scale(1) rotate(0) translateY(0);
+    transform: scale(1) rotate(0) translateY(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .team-member figure:hover img {
+    -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+    -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+    transform: scale(1.1) rotate(1deg) translateY(12px);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -30px;
+  }
+  .carousel-indicators li{
+    background-color: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+  }
+  .carousel-indicators .active{
+    background: #88bd24;
+  }
+
+
+.partners{
+  margin-bottom: 10px;
+}
+
+.partners .container{
+    padding-top: 150px;
+}
+.partners h2{
+    text-align: center;
+    padding: 20px;
+}
+.slick-slide{
+    margin: 0 20px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
