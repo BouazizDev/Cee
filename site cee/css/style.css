@@ -1,14 +1,16 @@
 
 
-body{   
+html,body{   
     font-family: 'Lato', sans-serif;
     color: #505962;
-    margin:0;
-   
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .cee {
-  color: #88bd24;
+  color: #88bd24 !important;
 }
 .navbar{
     text-transform: uppercase;
@@ -338,7 +340,7 @@ hr {
     top: 0;
     color: white;
     background:transparent;
-    overflow: hidden;
+    overflow: hidden ;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim 1s infinite linear alternate-reverse;
   }
@@ -520,7 +522,9 @@ hr {
   }
   
   .team-member figure img {
-    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
   }
   
   .team-member figcaption p {
@@ -633,6 +637,11 @@ hr {
 .partners .container{
     padding-top: 150px;
 }
+.partners .slide .img {
+  max-width: 90px;
+  max-height: 80px;
+
+}
 .partners h2{
     text-align: center;
     padding: 20px;
@@ -676,3 +685,314 @@ hr {
 .copy{
     padding-top: 250px;
 }
+.section-title {} .section-subtitle{
+  margin-bottom :7px;
+  padding-left: 7px;
+  line-height:1;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  border-left: 3px solid #88bd24;
+  font-size: 700;
+  font-family: tahoma;
+
+}
+.section_main_title{
+  margin-top:0;
+  margin-bottom: 37px;
+  font-size: 30px;
+  line-height: 1.27;
+  font-weight:300;
+}
+.section_main_title strong{
+  font-weight: 600;
+}
+.read-more-text{
+  display: none;
+}
+.read-more-text--show{
+  display: inline;
+}
+.read-more-btn:hover{
+  cursor: pointer;
+}
+.read-more-btn{
+  color: #0984e3;
+}
+.map-cnt{
+  margin-top: 32vh;
+}
+
+.about-section .container{
+  width: 80%;
+  display: inline-block;
+  margin: 100px 40px 100px 100px;
+}
+
+.about-section .content-section{
+  float: left;
+  width: 55%;
+}
+
+.about-section .container .image-section{
+float: right;
+width: 40%;
+}
+.about-section .image-section img{
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .about-section{
+    overflow-x: hidden;
+  }
+  .about-section .container{
+    margin: 20px;
+  }
+  .about-section .content-section{
+    width: 100%;
+  }
+  
+  .about-section .image-section img{
+    display: none;
+  }
+}
+
+
+
+
+.content-page .container-fluid {
+  padding: 0;
+}
+
+.content-page .container {
+  max-width: 800px;
+  margin-top: 130px;
+}
+
+
+.content-page h1, 
+.content-page h2, 
+.content-page h3, 
+.content-page h4 {
+    margin: 0;
+    padding: 20px 0 10px 0;
+}
+
+.content-page .row {
+    padding: 30px 0 40px 0;
+}
+
+.content-page h2 {
+    color: #333333;
+    font-size: 30px;
+}
+.content-page p {
+    color: #333333;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.content-page a {
+    color: #000;
+    font-weight: 600;
+}
+
+.content-page .hero {
+    height: 400px;
+    background-image: url("/img/bg-img.jpg");/*url("/images/headers/header-background.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-page .hero h1 {
+    color: #fff;
+    font-size: 48px;
+}
+.content-page .hero p {
+    color: #ebf0f5;
+    font-size: 14px;
+}
+
+
+
+#competition{
+  display:flex;
+  flex-wrap: wrap;
+  flex-grow:3;
+}
+#competition .card {
+  width:33%;
+  min-width: 250px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  margin:0 0.5% 1% 0;
+  display:inline-block
+}
+#competition .card:nth-of-type(3n){
+  margin-right:0;
+}
+#competition .card img {
+  width: 100%;
+  min-height:100%;
+  transition:all 0.9s
+}
+#competition .card:hover img{
+ transform:scale(1.2,1.2)
+}
+#competition .data {
+  position: absolute;
+  bottom: 5%;
+  background: #fff;
+  text-align:center;
+  width: 90%;
+  height: 80px;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 10px 5%;
+  box-sizing: border-box;
+  opacity: 0.8;
+  transition: all 0.4s
+}
+
+#competition .card:hover .data {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  opacity: 0.9;
+  padding:30px 10%;
+}
+
+.data h2 {
+  margin: 0 0 5px 0;
+  transition:color 0.4s
+}
+
+.data p {
+  opacity: 0;
+  text-align:justify;
+  transition: all 0.2s
+}
+
+#competition .card:hover .data p,.card:hover .data a {
+  opacity: 1
+}
+
+.data a{
+  color:#333;
+  text-decoration:none;
+  padding:20px;
+  opacity:0
+}
+.data a:hover,.card:hover h2{
+  color:#88bd24
+}
+
+@media (max-width:799px){
+  .card {
+    width:100%;
+    margin-right:0;
+  }
+  #competition{
+    justify-content: center;
+  }
+  .data{
+
+  }
+  
+}
+
+
+
+/* follow me @nodws */
+.btn-twtr{
+  color:#ddd;
+  border:2px solid;
+  border-radius:3px;
+  text-decoration:none;
+  display:inline-block;
+  padding:5px 10px;
+  font-family:sans-serif;
+  font-weight:600;
+  margin-top:100px;
+  opacity:0.8
+}
+.event-section .container{
+  position:relative; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.event-section .container .card{
+  position: relative;
+  max-width: 450px;
+  max-height: 386px;
+  background: #e0e0e0;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+}
+.event-section .container .imgBx{
+  max-width: 170px;
+  flex: 0 0 150px;
+}
+.event-section .container .imgBx img{
+  max-width: 100%;
+  max-height: 140px;
+  margin-left: 15px;
+}
+@media (max-width :991px){
+  .event-section .container{
+    flex-direction: column;
+  }
+}
+@media (max-width :768px){
+  .event-section .container{
+    flex-direction: column;
+    margin-left:0px;
+  }
+  .event-section .container .card{
+    flex-direction: column;
+    max-width: 350px;
+  }
+}
+.event-section .container .title{
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #333;
+  text-transform: uppercase;
+  font-size: medium;
+  margin :4px;
+  font-weight: bolder;
+}
+.eventtwo .about-section .content-section{
+    float: right;
+    width: 55%;
+  }
+.eventtwo .about-section .container .image-section{
+  float: left;
+  width: 40%;
+  }
+  @media only screen and (max-width: 600px) {
+    .eventtwo .about-section{
+      overflow-x: hidden;
+    }
+    .eventtwo .about-section .container{
+      margin: 20px;
+    }
+    .eventtwo .about-section .content-section{
+      width: 100%;
+    }
+    
+    .eventtwo .about-section .image-section img{
+      display: none;
+    }
+  }
+  

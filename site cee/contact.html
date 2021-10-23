@@ -26,77 +26,90 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a href="#" class="navbar-brand"><img src="./img/logo.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Events</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-            
-        </ul>
-    </div>
+    <div class="collapse navbar-collapse ml-auto" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#home">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">A Propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#team">L'Equipe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Activités</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
 
 
 </nav>
 <!--end navigation bar -->
 
 
-<!--Main section-->
-<section class="contact">
-<div class="container">
-    <div class="row">
-        <div class="col-6">
-            <div class="contact-us">
-                <div class="row justify-content-center">
-                    <h1 class="title">Contacts Us</h1>
-                </div>
-                <div class="container">
-                    <div class="contact-form row">
-                        <div class="form-field col-lg-6">
-                            <input id="name" type="text" class="input-text">
-                            <label for="name" class="label">Your Name</label>
-                        </div>
-                        <div class="form-field col-lg-6">     
-                            <input id="lastName" type="text" class="input-text">
-                            <label for="lastName" class="label">Your last Name</label>
-                        </div>
-                        <div class="form-field col-lg-6">
-            
-                            <input id="email" type="email" class="input-text">
-                            <label for="email" class="label">Your Email</label>
-                        </div>
-                        <div class="form-field col-lg-6">
-            
-                            <input id="message" type="text" class="input-text">
-                            <label for="message" class="label">Your Message</label>
-                        </div>
-                        <div class="form-field col-lg-12">
-            
-                            <input id="number" type="text" class="input-text">
-                            <label for="number" class="label">Your Message</label>
-                        </div>
-            
-                        <div class="form-field col-lg-12">
-            
-                            <input id="btn" type="submit" class="submit-btn">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                
-            </div>
-        </div>
+<section class="container mt-5">
+  <!--Contact heading-->
+  <div class="row">
+     <div class="col-sm-12 text-center mb-4">
     </div>
-</div>
+     <!--Grid column-->
+     <div class="col-sm-12 mb-4 col-md-5">
+        <!--Form with header-->
+        <div class="card border-success rounded-0" >
+           <div class="card-header p-0">
+              <div class="bg-success text-white text-center py-2" >
+                 <h3><i class="fa fa-envelope"></i> écrivez-nous:</h3>
+                 <p class="m-0">Nous écrirons rarement, mais seulement le meilleur contenu.</p>
+              </div>
+           </div>
+           <div class="card-body p-3">
+              
+                 <div class="form-group">
+                 <label>  Nom </label>
+                 <div class="input-group">
+                    <input value="" type="text" name="data[name]" class="form-control" id="inlineFormInputGroupUsername" placeholder="Nom">
+                 </div>
+       </div>
+                 <div class="form-group">
+                    <label>Email</label>
+                    <div class="input-group mb-2 mb-sm-0">
+                       <input type="email" value="" name="data[email]" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email">
+                    </div>
+                 </div>
+                 <div class="form-group">
+                    <label>Sujet</label>
+                    <div class="input-group mb-2 mb-sm-0">
+                       <input type="text" name="data[subject]" class="form-control" id="inlineFormInputGroupUsername" placeholder="sujet">
+                    </div>
+                 </div>
+                 <div class="form-group">
+                    <label>Message</label>
+                    <div class="input-group mb-2 mb-sm-0">
+                       <input type="text" class="form-control" name="mesg">
+                    </div>
+                 </div>
+                 <div class="text-center">
+                    <input type="submit" name="submit" value="Envoyer" class="btn btn-success btn-block rounded-0 py-2" >
+                 </div>
+            
+          </div>
+         
+           </div>
+        </div>
+     <!--Grid column-->
+   
+     <!--Grid column-->
+     <div class="col-sm-12 col-md-7">
+        <!--Google map-->
+        <div class="mb-4">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13116.684308733376!2d10.7177438!3d34.7260819!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cb1842d2707fe25!2s%C3%89cole%20Nationale%20d&#39;Ing%C3%A9nieurs%20de%20Sfax%20-%20ENIS!5e0!3m2!1sfr!2stn!4v1634486955782!5m2!1sfr!2stn" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+     </div>
+     <!--Grid column-->
+     </div>
 </section>
 
 
@@ -108,47 +121,49 @@
 
 <!--footer Section-->
                 
-<footer class="site-footer">                
-    <div class="container">
+    <!--footer-->
+    <footer class="site-footer offset">
+      <div class="container">
         <div class="row">
-            <div class="col-md-4">
-              <h2 class="footer-heading">About us</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, consectetur?</p>
-            </div>
-            <div class="col-md-4">
-              <h2 class="footer-heading">Contact us</h2>
-              <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-instagram " aria-hidden="true"></i></a>
-
-            </div>
-           <div class="col-md-4">
-               <h2 class="footer-heading">Adress</h2>
-               <div class="adress">
-                  <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
-                  <span class="text">Lorem ipsum dolor sit amet.</span>
-               </div>
-               <div class="phone">
-                  <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                  <span class="text">Lorem ipsum dolor sit amet.</span>
-               </div>
-               <div class="mail">
-                  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                  <span class="text">Lorem ipsum dolor sit amet.</span>
-               </div>
-
-              <p></p>
+          <div class="col-md-4">
+            <h2 class="footer-heading">Success is no accident its HARD WORK !
+            </h2>
+            <p>
+            </p>
           </div>
-          <hr class="socket">
-            <p class="cr"> &copy; Copyright 2020 CEE</p>
+          <div class="col-md-4">
+            <h2 class="footer-heading">Contactez-nous </h2>
+            <a href="https://www.facebook.com/Club-Electrique_ENIS-1117551481674337/"
+              ><i class="fa fa-facebook-official" aria-hidden="true"></i
+            ></a>
+            <a href="https://tn.linkedin.com/in/club-electrique-enis-043b47204"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/club_electrique_enis/?hl=fr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-md-4">
+            <h2 class="footer-heading">Adresse</h2>
+            <div class="adress">
+              <a href="#"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></a>
+              <span class="text"> Soukra Street 4 Km – Sfax, Tunisia.</span>
+            </div>
+            <div class="phone">
+              <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <span class="text">+ 216 54 161 999</span>
+            </div>
+            <div class="mail">
+              <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+              <span class="text">     club.electrique.enis@gmail .com
+              </span>
+            </div>
+
+            <p></p>
+          </div>
+          <hr class="socket" />
+          <p class="cr">&copy; Copyright 2021 CEE</p>
         </div>
-    </div>
-</div>
-
-
-
-
-
+      </div>
+    </footer>
 
 
 

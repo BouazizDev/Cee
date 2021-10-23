@@ -30,7 +30,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 
-  $(document).ready(function(){
+$(document).ready(function(){
     $('.customer-logos').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
@@ -40,15 +40,27 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         dots: false,
         pauseOnHover:false,
         responsive: [{
-            breakpoint: 768,
-            setting: {
+            breakpoint:768,
+            settings:{
                 slidesToShow:4
             }
-        }, {
-            breakpoint: 520,
-            setting: {
-                slidesToShow: 3
+        },{
+            breakpoint:520,
+            settings:{
+                slidesToShow:3
             }
-        }]
+        }
+    ]
     });
 });
+//readmore
+const parentContainer = document.querySelector('.read-more-container');
+
+parentContainer.addEventListener('click',event=>{
+    const current = event.target;
+    const isReadMorebtn = current.className.includes('read-more-btn');
+    if(!isReadMorebtn)return;
+    const currentText  = event.target.parentNode.querySelector('.read-more-text');
+    currentText.classList.toggle('read-more-text--show');
+    current.textContent = current.textContent.includes('Afficher plus') ? "Afficher moins..." : "Afficher plus...";
+})
